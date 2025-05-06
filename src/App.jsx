@@ -8,7 +8,9 @@ function App() {
 
   return (
     <>
-
+    <div className="home">
+      <h1>Időpontfoglaló rendszer</h1>
+    </div>
     </>
   )
 }
