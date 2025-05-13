@@ -1,14 +1,13 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import CalendarForm from "./components/CalendarForm";
-import { useState } from "react";
+import AdminPanel from "./components/AdminPanel";
 
 function App() {
-  const [admin, setAdmin] = useState(null);
-
   return (
     <Router>
       <Routes>
         <Route path="/" element={<CalendarForm />} />
+        <Route path="/admin" element={<AdminPanel />} />
       </Routes>
     </Router>
   );

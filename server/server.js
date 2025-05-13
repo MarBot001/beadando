@@ -1,16 +1,18 @@
 import express from 'express';
 import cors from 'cors';
 import authRoutes from './routes/auth.js';
-import appointmentRoutes from './routes/appointments.js'; // ha van
+import appointmentRoutes from './routes/appointments.js';
 import db from './config/db.js';
 
 const app = express();
 
+// CORS engedélyezése
 app.use(cors());
 app.use(express.json());
 
-app.use('/api', authRoutes);
-app.use('/api', appointmentRoutes); // ha külön route
+// Különböző route-ok
+app.use('/api/auth', authRoutes);  // Auth route
+app.use('/api/appointments', appointmentRoutes);  // Appointment route
 
 app.get('/', (req, res) => {
   res.send('Szerver fut');

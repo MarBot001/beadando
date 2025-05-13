@@ -1,9 +1,19 @@
 import express from 'express';
-import { getAppointments, createAppointment } from '../controllers/appointments.js';
+import {
+  getAppointments,
+  createAppointment,
+  deleteAppointment
+} from '../controllers/appointments.js';
 
 const router = express.Router();
 
-router.get('/appointments', getAppointments);
-router.post('/appointments', createAppointment);
+// Időpontok lekérése
+router.get('/', getAppointments);
+
+// Időpont hozzáadása
+router.post('/', createAppointment);
+
+// Időpont törlés
+router.delete('/:id', deleteAppointment);  // Az ID alapján törlés
 
 export default router;
