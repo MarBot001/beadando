@@ -19,9 +19,9 @@ Ez a projekt egy böngészőalapú időpontfoglaló rendszer, amely React, Node.
 
 | Név                | Neptun     | Email                      |
 |--------------------|------------|----------------------------|
-| <strong>Poór Sándor Kende  | REEAQ9     | poorkende@gmail.com        |
-| <strong>Kriston Zoltán     | PUQNF4     | kristonzoli2002@gmail.com  |
-| <strong>Vincze Marcell     | BIG9S5     | marcivin004@gmail.com      |
+| **Poór Sándor Kende**  | REEAQ9     | poorkende@gmail.com        |
+| **Kriston Zoltán**     | PUQNF4     | kristonzoli2002@gmail.com  |
+| **Vincze Marcell**     | BIG9S5     | marcivin004@gmail.com      |
 
 ## Egyéb tanulmányi adatok
 
