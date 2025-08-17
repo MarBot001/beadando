@@ -17,11 +17,11 @@ Ez a projekt egy böngészőalapú időpontfoglaló rendszer, amely React, Node.
 
 ## Csapattagok
 
-| Név                | Neptun     | Email                      |
-|--------------------|------------|----------------------------|
-| **Poór Sándor Kende**  | REEAQ9     | poorkende@gmail.com        |
-| **Kriston Zoltán**     | PUQNF4     | kristonzoli2002@gmail.com  |
-| **Vincze Marcell**     | BIG9S5     | marcivin004@gmail.com      |
+| Neptun
+---------
+| REEAQ9
+| PUQNF4
+| BIG9S5
 
 ## Egyéb tanulmányi adatok
 
